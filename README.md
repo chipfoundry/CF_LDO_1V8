@@ -540,6 +540,18 @@ Use the files under `hdl/gl/` as blackbox declarations, `layout/lef/` for physic
 
 ## Block Diagram
 
+### Figure not published (vendor branding)
+
+![Figure not published (vendor branding)](doc/generated/CF_LDO_1V8_withheld_01.svg)
+
+**Not published.** page logo, header, footer, or marketing tagline [src-6795e94640f3a9db:p1]
+
+### Figure not published (not cleared)
+
+![Figure not published (not cleared)](doc/generated/CF_LDO_1V8_withheld_02.svg)
+
+**Not published.** vendor cell name or part number legible in crop [src-6795e94640f3a9db:p1]
+
 ### FigureExtraction
 
 ![FigureExtraction](doc/generated/CF_LDO_1V8_block_01.png)
@@ -564,11 +576,29 @@ The block diagram for the CF_LDO_1V8. Pinout and labels are shown. The block is 
 
 TSS and Pwr block diagram [src-6795e94640f3a9db:p10]
 
+### Figure not published (not cleared)
+
+![Figure not published (not cleared)](doc/generated/CF_LDO_1V8_withheld_08.svg)
+
+**Not published.** vendor cell name or part number legible in crop [src-6795e94640f3a9db:p18]
+
 ### CF_LDO_1V8
 
 ![CF_LDO_1V8](doc/generated/CF_LDO_1V8_block_04.png)
 
 The published block is named CF_LDO_1V8. [src-6795e94640f3a9db:p18]
+
+### Figure not published (not cleared)
+
+![Figure not published (not cleared)](doc/generated/CF_LDO_1V8_withheld_11.svg)
+
+**Not published.** crop carries no technical content; QSI-123 (if this is a vendor-internal reference that should be redacted) [src-6795e94640f3a9db:p28]
+
+### Figure not published (not cleared)
+
+![Figure not published (not cleared)](doc/generated/CF_LDO_1V8_withheld_15.svg)
+
+**Not published.** crop carries no technical content; Spelling error: 'Requuired' should be 'Required'; 'equiipm' should be 'equipment' [src-6795e94640f3a9db:p32]
 
 
 ## Pin Description
@@ -2532,6 +2562,90 @@ Active current cons at 5.5V supply, low power mode [src-a272b7b79181b903:p8]
 Internal Wire routing to Regulator, Bond Wire, Package Pin, VDDA Pin [src-6795e94640f3a9db:p17]
 
 
+## Tables
+
+### Figure not published (not cleared)
+
+![Figure not published (not cleared)](doc/generated/CF_LDO_1V8_withheld_03.svg)
+
+**Not published.** vendor cell name or part number legible in crop [src-6795e94640f3a9db:p6]
+
+### Figure not published (not cleared)
+
+![Figure not published (not cleared)](doc/generated/CF_LDO_1V8_withheld_04.svg)
+
+**Not published.** vendor cell name or part number legible in crop; S8 appears truncated in both entries; likely 'S8' is part of a longer string (e.g., 'S8P', 'S8T') that is cut off in the crop. Full part number or context not visible. [src-6795e94640f3a9db:p7]
+
+### Figure not published (not cleared)
+
+![Figure not published (not cleared)](doc/generated/CF_LDO_1V8_withheld_05.svg)
+
+**Not published.** vendor company name legible in crop; The 'IP' and 'Cy' text in the image are partial and cut off, which may not be fully representative of the original context. [src-6795e94640f3a9db:p8]
+
+### Figure not published (not cleared)
+
+![Figure not published (not cleared)](doc/generated/CF_LDO_1V8_withheld_06.svg)
+
+**Not published.** vendor cell name or part number legible in crop; The URL 'http://pm.cypress.com/cyplm/help/helpContents/risks.html' is a specific link to a help page that may not be relevant to the public documentation of CF_LDO_1V8 and could be considered sensitive or internal. It should be redacted.; The code 'SXE-280' appears to be a vendor-specific identifier (e.g., a part number or internal reference) that may not be necessary for public documentation and should be redacted. [src-6795e94640f3a9db:p9]
+
+### Figure not published (not cleared)
+
+![Figure not published (not cleared)](doc/generated/CF_LDO_1V8_withheld_07.svg)
+
+**Not published.** vendor cell name or part number legible in crop; The text is incomplete (truncated) at the end of both lines. The full context of 'is the' is missing, which could be part of a technical description that may need to be redacted or replaced. The vendor part numbers ENH-114 and ENH-110 are visible, but it is unclear if these are relevant to the CF_LDO_1V8 or if they should be redacted to avoid misattribution. [src-6795e94640f3a9db:p16]
+
+### Figure not published (not cleared)
+
+![Figure not published (not cleared)](doc/generated/CF_LDO_1V8_withheld_09.svg)
+
+**Not published.** vendor cell name or part number legible in crop [src-6795e94640f3a9db:p19]
+
+### Figure not published (not cleared)
+
+![Figure not published (not cleared)](doc/generated/CF_LDO_1V8_withheld_10.svg)
+
+**Not published.** crop carries no technical content; ENH#074 appears to be a reference that may need to be reviewed for public use; The text is cut off on the left and right sides, indicating potential missing context [src-6795e94640f3a9db:p27]
+
+### Figure not published (not cleared)
+
+![Figure not published (not cleared)](doc/generated/CF_LDO_1V8_withheld_12.svg)
+
+**Not published.** vendor cell name or part number legible in crop; s8-prefixed cell name or vendor part number (e.g., 'Vccts_3p6_wc') is legible [src-6795e94640f3a9db:p29]
+
+### Figure not published (not cleared)
+
+![Figure not published (not cleared)](doc/generated/CF_LDO_1V8_withheld_13.svg)
+
+**Not published.** crop carries no technical content; The text is cut off at the end of the second line; the full content is not visible. [src-6795e94640f3a9db:p30]
+
+### Figure not published (not cleared)
+
+![Figure not published (not cleared)](doc/generated/CF_LDO_1V8_withheld_14.svg)
+
+**Not published.** crop carries no technical content; Required eauipment: (typo in 'equipment') [src-6795e94640f3a9db:p31]
+
+### 
+
+![](doc/generated/CF_LDO_1V8_table_01.png)
+
+LDO Line Regulation [src-6795e94640f3a9db:p34]
+
+### Figure not published (not cleared)
+
+![Figure not published (not cleared)](doc/generated/CF_LDO_1V8_withheld_16.svg)
+
+**Not published.** vendor cell name or part number legible in crop [src-6795e94640f3a9db:p36]
+
+### CF_LDO_1V8
+
+![CF_LDO_1V8](doc/generated/CF_LDO_1V8_table_02.png)
+
+Rev. ECN No. Orig. of Change Description of Change [src-6795e94640f3a9db:p39]
+
+
+## Withheld figures
+
+
 ## Limitations and Open Issues
 
 - in bypass mode, VDDA must be limited to 3.6V
@@ -2675,13 +2789,26 @@ Internal Wire routing to Regulator, Bond Wire, Package Pin, VDDA Pin [src-6795e9
 
 Source markers identify immutable, hash-addressed operator evidence and page numbers. Original source filenames and vendor branding are intentionally not included in the customer package.
 
+- `src-6795e94640f3a9db` page 1
 - `src-6795e94640f3a9db` page 2
+- `src-6795e94640f3a9db` page 6
+- `src-6795e94640f3a9db` page 7
+- `src-6795e94640f3a9db` page 8
+- `src-6795e94640f3a9db` page 9
 - `src-6795e94640f3a9db` page 10
+- `src-6795e94640f3a9db` page 16
 - `src-6795e94640f3a9db` page 17
 - `src-6795e94640f3a9db` page 18
+- `src-6795e94640f3a9db` page 19
+- `src-6795e94640f3a9db` page 27
+- `src-6795e94640f3a9db` page 28
+- `src-6795e94640f3a9db` page 29
+- `src-6795e94640f3a9db` page 30
 - `src-6795e94640f3a9db` page 31
+- `src-6795e94640f3a9db` page 32
 - `src-6795e94640f3a9db` page 33
 - `src-6795e94640f3a9db` page 34
+- `src-6795e94640f3a9db` page 36
 - `src-6795e94640f3a9db` page 39
 - `src-6795e94640f3a9db` page n/a
 - `src-a272b7b79181b903` page 8
