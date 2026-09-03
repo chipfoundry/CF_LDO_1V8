@@ -1,11 +1,29 @@
 # CF_LDO_1V8
 
-> **Draft for review — text extraction only.** Figure rebuild did not pass, so this file is not a complete datasheet. Cypress/process leftovers may still be present. Do not treat this as a released spec.
+> **Draft for review.** Not a released spec. Figures are the original datasheet crops that passed branding review; any figure without a cached clearance was left out. Vendor wording may still be present in the text.
 
 - Vendor block: `s8ldo`
 - Pages merged: 49/49
+- Figures published: 8/24
 - Skipped or invalid caches:
 - (none)
+- Figures not published:
+- `src-6795e94640f3a9db-p0001-figure-0000` — page logo, header, footer, or marketing tagline
+- `src-6795e94640f3a9db-p0001-figure-0001` — vendor cell name or part number legible in crop
+- `src-6795e94640f3a9db-p0006-vector-0000` — vendor cell name or part number legible in crop
+- `src-6795e94640f3a9db-p0007-vector-0000` — vendor cell name or part number legible in crop; S8 appears truncated in both entries; likely 'S8' is part of a longer string (e.g., 'S8P', 'S8T') that is cut off in the crop. Full part number or context not visible.
+- `src-6795e94640f3a9db-p0008-vector-0000` — vendor company name legible in crop; The 'IP' and 'Cy' text in the image are partial and cut off, which may not be fully representative of the original context.
+- `src-6795e94640f3a9db-p0009-vector-0000` — vendor cell name or part number legible in crop; The URL 'http://pm.cypress.com/cyplm/help/helpContents/risks.html' is a specific link to a help page that may not be relevant to the public documentation of CF_LDO_1V8 and could be considered sensitive or internal. It should be redacted.; The code 'SXE-280' appears to be a vendor-specific identifier (e.g., a part number or internal reference) that may not be necessary for public documentation and should be redacted.
+- `src-6795e94640f3a9db-p0016-vector-0000` — vendor cell name or part number legible in crop; The text is incomplete (truncated) at the end of both lines. The full context of 'is the' is missing, which could be part of a technical description that may need to be redacted or replaced. The vendor part numbers ENH-114 and ENH-110 are visible, but it is unclear if these are relevant to the CF_LDO_1V8 or if they should be redacted to avoid misattribution.
+- `src-6795e94640f3a9db-p0018-figure-0000` — vendor cell name or part number legible in crop
+- `src-6795e94640f3a9db-p0019-vector-0000` — vendor cell name or part number legible in crop
+- `src-6795e94640f3a9db-p0027-vector-0000` — crop carries no technical content; ENH#074 appears to be a reference that may need to be reviewed for public use; The text is cut off on the left and right sides, indicating potential missing context
+- `src-6795e94640f3a9db-p0028-vector-0000` — crop carries no technical content; QSI-123 (if this is a vendor-internal reference that should be redacted)
+- `src-6795e94640f3a9db-p0029-vector-0000` — vendor cell name or part number legible in crop; s8-prefixed cell name or vendor part number (e.g., 'Vccts_3p6_wc') is legible
+- `src-6795e94640f3a9db-p0030-vector-0000` — crop carries no technical content; The text is cut off at the end of the second line; the full content is not visible.
+- `src-6795e94640f3a9db-p0031-vector-0000` — crop carries no technical content; Required eauipment: (typo in 'equipment')
+- `src-6795e94640f3a9db-p0032-vector-0000` — crop carries no technical content; Spelling error: 'Requuired' should be 'Required'; 'equiipm' should be 'equipment'
+- `src-6795e94640f3a9db-p0036-vector-0000` — vendor cell name or part number legible in crop
 
 ---
 
@@ -522,7 +540,36 @@ Use the files under `hdl/gl/` as blackbox declarations, `layout/lef/` for physic
 
 ## Block Diagram
 
-No source-backed figure of this type was present.
+### FigureExtraction
+
+![FigureExtraction](doc/generated/CF_LDO_1V8_block_01.png)
+
+Block diagram of a TSS (Transceiver System) with power management components, showing the connection between RX/TX pads, signal processing blocks (Baseline IDAC, RX Channels, ADC, Noise Det), digital control blocks (AHB I/F, Registers, Sequencer), and power supply (LDOs, voltage references). The red-circled LDO is highlighted with a 2.6-5.5V input and connection to 2.5V for TX Dvr & Pump. [src-6795e94640f3a9db:p2]
+
+### CF_LDO_1V8
+
+![CF_LDO_1V8](doc/generated/CF_LDO_1V8_schematic_01.png)
+
+CF_LDO_1V8 [src-6795e94640f3a9db:p2]
+
+### CF_LDO_1V8
+
+![CF_LDO_1V8](doc/generated/CF_LDO_1V8_block_02.png)
+
+The block diagram for the CF_LDO_1V8. Pinout and labels are shown. The block is surrounded by power supply and ground pins, and has various input and output signals. [src-6795e94640f3a9db:p2]
+
+### CF_LDO_1V8
+
+![CF_LDO_1V8](doc/generated/CF_LDO_1V8_block_03.png)
+
+TSS and Pwr block diagram [src-6795e94640f3a9db:p10]
+
+### CF_LDO_1V8
+
+![CF_LDO_1V8](doc/generated/CF_LDO_1V8_block_04.png)
+
+The published block is named CF_LDO_1V8. [src-6795e94640f3a9db:p18]
+
 
 ## Pin Description
 
@@ -2478,7 +2525,12 @@ Active current cons at 5.5V supply, low power mode [src-a272b7b79181b903:p8]
 
 ## Timing Diagram
 
-No source-backed figure of this type was present.
+### CF_LDO_1V8
+
+![CF_LDO_1V8](doc/generated/CF_LDO_1V8_chart_01.png)
+
+Internal Wire routing to Regulator, Bond Wire, Package Pin, VDDA Pin [src-6795e94640f3a9db:p17]
+
 
 ## Limitations and Open Issues
 
@@ -2623,9 +2675,14 @@ No source-backed figure of this type was present.
 
 Source markers identify immutable, hash-addressed operator evidence and page numbers. Original source filenames and vendor branding are intentionally not included in the customer package.
 
+- `src-6795e94640f3a9db` page 2
 - `src-6795e94640f3a9db` page 10
+- `src-6795e94640f3a9db` page 17
+- `src-6795e94640f3a9db` page 18
 - `src-6795e94640f3a9db` page 31
 - `src-6795e94640f3a9db` page 33
+- `src-6795e94640f3a9db` page 34
+- `src-6795e94640f3a9db` page 39
 - `src-6795e94640f3a9db` page n/a
 - `src-a272b7b79181b903` page 8
 - `src-a272b7b79181b903` page n/a
