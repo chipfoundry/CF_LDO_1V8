@@ -1,0 +1,376 @@
+VERSION 5.8 ;
+BUSBITCHARS "[]" ;
+DIVIDERCHAR "/" ;
+
+MACRO CF_LDO_1V8
+  CLASS BLOCK ;
+  ORIGIN 0 0 ;
+  FOREIGN CF_LDO_1V8 0 0 ;
+  SIZE 840 BY 830 ;
+  PIN vccts
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 8.5 716.295 18.12 784.47 ;
+    END
+  END vccts
+  PIN vccts_d
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 8.5 787 18.12 812 ;
+    END
+  END vccts_d
+  PIN vpwr
+    DIRECTION INPUT ;
+    USE POWER ;
+    PORT
+      LAYER met3 ;
+        RECT 821.305 469.07 825 489.07 ;
+      LAYER met2 ;
+        RECT 821.305 468.19 825 489.07 ;
+      LAYER met3 ;
+        RECT 816.31 468.19 825 468.67 ;
+        RECT 1.23 820.3 838.77 823.4 ;
+      LAYER met4 ;
+        RECT 5 0 8.1 830 ;
+        RECT 35 0 38.1 830 ;
+        RECT 65 0 68.1 830 ;
+        RECT 95 0 98.1 830 ;
+        RECT 125 0 128.1 830 ;
+        RECT 155 0 158.1 830 ;
+        RECT 185 0 188.1 830 ;
+        RECT 215 0 218.1 830 ;
+        RECT 245 0 248.1 830 ;
+        RECT 275 0 278.1 830 ;
+        RECT 305 0 308.1 830 ;
+        RECT 335 0 338.1 830 ;
+        RECT 365 0 368.1 830 ;
+        RECT 395 0 398.1 830 ;
+        RECT 425 0 428.1 830 ;
+        RECT 455 0 458.1 830 ;
+        RECT 485 0 488.1 830 ;
+        RECT 515 0 518.1 830 ;
+        RECT 545 0 548.1 830 ;
+        RECT 575 0 578.1 830 ;
+        RECT 605 0 608.1 830 ;
+        RECT 635 0 638.1 830 ;
+        RECT 665 0 668.1 830 ;
+        RECT 695 0 698.1 830 ;
+        RECT 725 0 728.1 830 ;
+        RECT 755 0 758.1 830 ;
+        RECT 785 0 788.1 830 ;
+        RECT 815 0 818.1 830 ;
+    END
+  END vpwr
+  PIN vssa
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 822.755 625.215 825 659.67 ;
+    END
+  END vssa
+  PIN vcchib
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 821.305 494.07 825 514.07 ;
+    END
+  END vcchib
+  PIN vdda
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 822.7 748.815 825 815 ;
+    END
+  END vdda
+  PIN vgnd
+    DIRECTION INPUT ;
+    USE GROUND ;
+    PORT
+      LAYER met3 ;
+        RECT 821.385 419.07 825 439.07 ;
+        RECT 821.385 419.07 825 439.07 ;
+      LAYER met2 ;
+        RECT 821.385 419.07 825 439.07 ;
+      LAYER met3 ;
+        RECT 821.385 419.07 831.79 439.07 ;
+        RECT 1.23 815.5 838.77 818.6 ;
+      LAYER met4 ;
+        RECT 20 0 23.1 830 ;
+        RECT 50 0 53.1 830 ;
+        RECT 80 0 83.1 830 ;
+        RECT 110 0 113.1 830 ;
+        RECT 140 0 143.1 830 ;
+        RECT 170 0 173.1 830 ;
+        RECT 200 0 203.1 830 ;
+        RECT 230 0 233.1 830 ;
+        RECT 260 0 263.1 830 ;
+        RECT 290 0 293.1 830 ;
+        RECT 320 0 323.1 830 ;
+        RECT 350 0 353.1 830 ;
+        RECT 380 0 383.1 830 ;
+        RECT 410 0 413.1 830 ;
+        RECT 440 0 443.1 830 ;
+        RECT 470 0 473.1 830 ;
+        RECT 500 0 503.1 830 ;
+        RECT 530 0 533.1 830 ;
+        RECT 560 0 563.1 830 ;
+        RECT 590 0 593.1 830 ;
+        RECT 620 0 623.1 830 ;
+        RECT 650 0 653.1 830 ;
+        RECT 680 0 683.1 830 ;
+        RECT 710 0 713.1 830 ;
+        RECT 740 0 743.1 830 ;
+        RECT 770 0 773.1 830 ;
+        RECT 800 0 803.1 830 ;
+        RECT 830 0 833.1 830 ;
+    END
+  END vgnd
+  PIN ldo_ngate_trim[0]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 823.4 527.605 840 527.885 ;
+    END
+  END ldo_ngate_trim[0]
+  PIN dft[2]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 823.4 532.245 840 532.525 ;
+    END
+  END dft[2]
+  PIN dft[3]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 823.4 532.825 840 533.105 ;
+    END
+  END dft[3]
+  PIN isolate_ahv
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 823.4 526.445 840 526.725 ;
+    END
+  END isolate_ahv
+  PIN dft[4]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 823.4 533.405 840 533.685 ;
+    END
+  END dft[4]
+  PIN ldo_dft_out
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 823.4 545.62 840 545.9 ;
+    END
+  END ldo_dft_out
+  PIN prog[0]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 823.4 533.985 840 534.265 ;
+    END
+  END prog[0]
+  PIN prog[1]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 823.4 534.565 840 534.845 ;
+    END
+  END prog[1]
+  PIN prog[2]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 823.4 535.145 840 535.425 ;
+    END
+  END prog[2]
+  PIN vdda_low_n
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 823.4 539.205 840 539.485 ;
+    END
+  END vdda_low_n
+  PIN prog[3]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 823.4 535.725 840 536.005 ;
+    END
+  END prog[3]
+  PIN trim[0]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 823.4 536.305 840 536.585 ;
+    END
+  END trim[0]
+  PIN trim[1]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 823.4 536.885 840 537.165 ;
+    END
+  END trim[1]
+  PIN en_dft
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 823.4 538.625 840 538.905 ;
+    END
+  END en_dft
+  PIN trim[2]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 823.4 537.465 840 537.745 ;
+    END
+  END trim[2]
+  PIN ldo_pwrmode
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 823.4 528.765 840 529.045 ;
+    END
+  END ldo_pwrmode
+  PIN ldo_ngate_trim[1]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 823.4 528.185 840 528.465 ;
+    END
+  END ldo_ngate_trim[1]
+  PIN dft[1]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 823.4 531.665 840 531.945 ;
+    END
+  END dft[1]
+  PIN dft[0]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 823.4 531.085 840 531.365 ;
+    END
+  END dft[0]
+  PIN isrc_2p5u
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 823.4 660.945 840 661.94 ;
+    END
+  END isrc_2p5u
+  PIN vref_1v
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 823.4 622.875 840 623.875 ;
+    END
+  END vref_1v
+  PIN bypass
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 823.4 530.505 840 530.785 ;
+    END
+  END bypass
+  PIN pd
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 823.4 529.925 840 530.205 ;
+    END
+  END pd
+  PIN trim[3]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 823.4 538.045 840 538.325 ;
+    END
+  END trim[3]
+  PIN rst_system_act_nonret_n
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 823.395 529.345 840 529.625 ;
+    END
+  END rst_system_act_nonret_n
+  OBS
+    LAYER li1 ;
+      RECT 0 0 840 830 ;
+    LAYER met1 ;
+      RECT 0 0 15 830 ;
+      RECT 825 0 840 622.875 ;
+      RECT 825 623.875 840 660.945 ;
+      RECT 825 661.94 840 830 ;
+      RECT 15 0 825 15 ;
+      RECT 15 815 825 830 ;
+    LAYER met2 ;
+      RECT 0 0 15 830 ;
+      RECT 825 0 840 526.445 ;
+      RECT 825 526.725 840 527.605 ;
+      RECT 825 527.885 840 528.185 ;
+      RECT 825 528.465 840 528.765 ;
+      RECT 825 529.045 840 529.345 ;
+      RECT 825 529.625 840 529.925 ;
+      RECT 825 530.205 840 530.505 ;
+      RECT 825 530.785 840 531.085 ;
+      RECT 825 531.365 840 531.665 ;
+      RECT 825 531.945 840 532.245 ;
+      RECT 825 532.525 840 532.825 ;
+      RECT 825 533.105 840 533.405 ;
+      RECT 825 533.685 840 533.985 ;
+      RECT 825 534.265 840 534.565 ;
+      RECT 825 534.845 840 535.145 ;
+      RECT 825 535.425 840 535.725 ;
+      RECT 825 536.005 840 536.305 ;
+      RECT 825 536.585 840 536.885 ;
+      RECT 825 537.165 840 537.465 ;
+      RECT 825 537.745 840 538.045 ;
+      RECT 825 538.325 840 538.625 ;
+      RECT 825 538.905 840 539.205 ;
+      RECT 825 539.485 840 545.62 ;
+      RECT 825 545.9 840 830 ;
+      RECT 15 0 825 15 ;
+      RECT 15 815 825 830 ;
+  END
+END CF_LDO_1V8
+
+END LIBRARY
