@@ -20,7 +20,7 @@ and `vcchib` stay wrap ports and are routed as signals.
 
 ```bash
 pip install cf-ipm
-ipm install CF_LDO_1V8 --version 0.2.0
+ipm install CF_LDO_1V8 --version 0.2.1
 ```
 
 Use `hdl/gl/CF_LDO_1V8.v` as the customer blackbox, `layout/lef/CF_LDO_1V8.lef`
@@ -113,6 +113,7 @@ high when `vdda` and `vref_1v` are high. That model is not silicon-verified.
 | Version | Date | Notes |
 |---|---|---|
 | 0.2.0 | 2026-09-26 | First SRAM-style PG-wrapped package. Ideal behavioral model. Core fill-exclude covers. |
+| 0.2.1 | 2026-11-07 | Leaf GDS carries wafflefill so pre-merge density passes, and adds the met3 waffleDrop cover. WaffleDrop still keeps chip fill out of the block. |
 
 ## Tapeout History
 
